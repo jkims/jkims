@@ -232,16 +232,61 @@ body {
     margin-bottom:25px;
 }
 
+.project-hero{
+    height: 60vh;
+    min-height: 450px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    margin-top:80px;
+}
+
+.project-title{
+    position:relative;
+    z-index:2;
+
+    color:white;
+
+    max-width:800px;
+
+    padding:0 20px;
+}
+
 .project-hero img{
     width:100%;
     height:500px;
     object-fit:cover;
 }
 
-.project-hero h1{
-    text-align:center;
-    padding:40px;
-    font-family:'Oswald';
+.project-title h1{
+
+    font-size:5rem;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+}
+.project-title p{
+
+    font-size:1.3rem;
+
+    line-height:1.7;
+
+    opacity:.95;
 }
 
 .project-section{
